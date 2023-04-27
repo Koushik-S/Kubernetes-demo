@@ -1,0 +1,14 @@
+aws eks update-kubeconfig --name hw3 --region us-east-2
+aws eks --region region-code update-kubeconfig --name cluster-name
+
+https://hooks.slack.com/services/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
+
+
+http://10.97.97.1:30002/
+
+
+kubectl port-forward prometheus-deployment-954488b65-ct275 8080:9090 -n monitoring
+
+kubectl create secret generic slack-webhook-url --from-literal=url=https://hooks.slack.com/services/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
+
+http://10.111.20.112:31000
